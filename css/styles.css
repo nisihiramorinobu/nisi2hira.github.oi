@@ -15,9 +15,9 @@ li a:hover {
   color: red;
 }
 #cat {
-  transform: scale(0.35);
+  width: 35%;
   /* vertical-align: auto; */
 }
 .photos {
-  transform: scale(0.2);
+  width: 35%;
 }
