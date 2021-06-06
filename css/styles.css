@@ -15,12 +15,52 @@ li a:hover {
   color: red;
 }
 #cat {
-  height: 30px;
+  height: 10em;
   /* vertical-align: auto; */
 }
-#slide {
+.slider__img{
+ 
+  width: 25vw;
+  height: auto;
+  max-width: 100%;
+  min-width: 100%;
+}
+.slider{
+  width: 25vw;
+  margin: 0 auto;
+  overflow: hidden;
   display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
 }
-.photos {
-  height: 300px;
+
+.slider__content{
+  min-width: 100%;
+  animation: sliderAnime 10s ease-in-out infinite;
 }
+
+@keyframes sliderAnime{
+  0%{
+
+  }
+  10%{
+      transform: translateX(0);
+  }
+  20%, 33%{
+      transform: translateX(-100%);
+  }
+  40%, 53%{
+      transform: translateX(-200%);
+  }
+  60%, 73%{
+      transform: translateX(-300%);
+  }
+  80%, 93%{
+      transform: translateX(-400%);
+  }
+  100%, 110%{
+      transform: translateX(-500%);
+  }
+} 
+
