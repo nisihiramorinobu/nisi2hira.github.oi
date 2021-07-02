@@ -1,4 +1,18 @@
-
+@media print {
+  body{
+   overflow-y: visible !important;
+   overflow-x: visible !important;
+  }
+  .inner_wrp,
+  .noColumn,
+  .standardContainer,
+  .memberlistWrap{
+   overflow-y: visible !important;
+  }
+ }
+headar {
+  color:#626262;
+}
 #head1 [src="img/taro.png"] {
   border: solid 2px white;
   border-radius: 50%;
