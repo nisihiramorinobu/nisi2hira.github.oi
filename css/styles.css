@@ -1,15 +1,23 @@
-@media print {
-  body{
-   overflow-y: visible !important;
-   overflow-x: visible !important;
+/* common */
+/* smoll screen */
+:root {
+  font-size: 30px;
+}
+@media (min-width : 600px) {
+  :root {
+    font-size: 20px;
   }
-  .inner_wrp,
-  .noColumn,
-  .standardContainer,
-  .memberlistWrap{
-   overflow-y: visible !important;
+  
+}
+@media (min-width : 800px) {
+  :root {
+    font-size: 10px;
   }
- }
+ 
+}
+body {
+  margin: 0;
+}
 headar {
   color:#626262;
 }
@@ -17,21 +25,27 @@ headar {
   border: solid 2px white;
   border-radius: 50%;
 }
+/* medium screen */
+
+
+
 #head1 {
   background-color: rgb(196, 218, 238);
   display: flex;
-  width: 350px;
+  /* width: 350px; */
+  width: calc(35rem);
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
   padding-top: 10px;
 }
 #head1 h1 {
-  font-size: 24px;
+  font-size: 2.4rem;
   margin: 0;
 }
 #head1 p {
   margin: 0 0 8px; 
+  font-size: 1.6rem;
 }
 #info ol {
   display: flex;
