@@ -17,7 +17,7 @@ console.clear();
   // tesuto();
   
 $(function(){
-  $('header').load('more.html');
+  // $('header').load('more.html');
   $("#moreBtn").click(function(){
       var switch_flg = $(this).hasClass("close");
       if (switch_flg) {
