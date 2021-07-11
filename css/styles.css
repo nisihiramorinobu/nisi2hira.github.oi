@@ -1,104 +1,43 @@
-/* セレクタ {
-  プロパティ
-} */
-
-
-body {
-  color: #333;
-  font-family: Verdana, sans-serif;
-  margin: 0;
-}
-header {
-  background-color: wheat;
-  padding-top: 32px;
-  padding-bottom: 32px;
+.itiran td {
+  padding-left: 2em;
 }
 
-.container {
-  /* background-color: pink; */
-  width: 380px;
-  margin-left: auto;
-  margin-right: auto;
+.large {
+  display: block;
   display: flex;
-  align-items:center;
-  justify-content: space-between;
-  /* justify-content思い出せない */
+  background-color: rgb(217, 209, 225);
+  max-width: 600px;
+  min-width: 300px;
+  text-decoration: none;
 }
-.icon img {
-  
-  border-radius: 50%;
-  border: solid 4px white;
-/* solidを忘れていた */
+.large h2 {
+  font-weight: normal;
+ 
 }
-
-main {
-  display: grid;
-  grid-template-columns: 300px 1fr 2fr;
-  /* grid-template-rows: repeat(2, 400px); */
-  grid-auto-rows: 400px;
-  gap: 10px 20px;
+.middle h3 {
+  font-weight: normal;
+ 
 }
-#s1 {
-  background-color: rgb(195, 230, 168);
-}
-#s2 {
-  background-color:honeydew
-}
-#s3 {
-  background-color:rgb(228, 228, 175)
+.large p {
+  display: none;
 }
 
-#s4 {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 14px;
-  background-color: #eee;
+@media screen and (min-width: 500px) {
+  .large p {
+    display: block;
+  }
+}
+.middle {
 
-}
-#s4 #stopwatch {
-  margin: 20px auto;
-  padding: 15px;
-  width: 270px;
-  text-align: center;
-  background-color: #fff;
-
-}
-#s4 #timer {
-  width: 250px;
-  height: 120px;
-  line-height: 120px;
-  background-color: #ddd;
-  text-align: center;
-  font-size: 40px;
-  margin-bottom: 15px;
-  
-}
-.info h1 {
-  font-weight: nomal;
-  font-size: 24px;
-  margin: 0;
-}
-.info p {
-  margin: 0;
-  margin-bottom: 16px;
-}
-.info ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  /* type が思い出せない */
   display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(199, 237, 164);
+  max-width: 600px;
+  min-width: 300px;
 }
-.info ul li {
-  margin-right: 8px;
+.middle a {
+  display: block;
+  width: 300px;
+ flex-grow: 1;
+ text-decoration: none;
 }
-#s3 {
-  border: solid 1px blue;
-}
-#s3 h1 {
-  border: inherit;
-}
-footer p {
-  text-align: center;
-  color: gray;
-}
-
