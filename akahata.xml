@@ -6,7 +6,7 @@
   <!ELEMENT label (#PCDATA)>
   <!ELEMENT title (#PCDATA)>  
   <!ELEMENT content (#PCDATA)>
-    <!ELEMENT url (#PCDATA)>
+  <!ELEMENT url (#PCDATA)>
 ]>
 <kijidata>
 	<entry>
