@@ -39,10 +39,10 @@ $(function(){
 	var $day = $(this).find('day').text();
 	var $label = $(this).find('label').text();
 	var $title = $(this).find('title').text();
-	// var $image = $(this).find('image').text();
-	// var $alt = $(this).find('alt').text();
 	var $content = $(this).find('content').text();
 	var $url = $(this).find('url').text();
+	var $image = $(this).find('image').text();
+	var $alt = $(this).find('alt').text();
 
 	// if($label === 'main'){
 	// 	$('<a href="https://www.jcp.or.jp/akahata/">襍､譌苓ｨ倅ｺ倶ｸ隕ｧ</a>'+'<span class="data">'+$day+'</span>').appendTo('section.akahatabox p');
@@ -50,13 +50,13 @@ $(function(){
 	// }
 		//HTML繧堤函謌�
 		if($label === 'main'){
-			// if($image != ""){
-			// $('<li>'+
-			// 	'<a href="'+$url+'"><div><p class="title">'+$title.substring(0,36) +'</p>'+
-			// 	'<p class="text">'+$content.substring(0,90)+'窶ｦ窶ｦ'+'</p></div>'+
-			// 	'<div><img src="'+$image+'" alt="'+$alt+'" ></div>'+
-			// 	'</a></li>').appendTo('section.akahatabox ul');
-			// }else {
+			if($image != ""){
+			$('<li>'+
+				'<a href="'+$url+'"><div><p class="title">'+$title.substring(0,36) +'</p>'+
+				'<p class="text">'+$content.substring(0,90)+'窶ｦ窶ｦ'+'</p></div>'+
+				'<div><img src="'+$image+'" alt="'+$alt+'" ></div>'+
+				'</a></li>').appendTo('section.akahatabox ul');
+			}else {
 				$('<li  class="noimg">'+
 				'<a href="'+$url+'"><div><p class="title">'+$title.substring(0,36) +'</p>'+
 				'<p class="text">'+$content.substring(0,90)+'窶ｦ窶ｦ'+'</p></div>'+
