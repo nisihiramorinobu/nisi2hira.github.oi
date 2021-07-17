@@ -61,7 +61,7 @@ $(function(){
 				'<a href="'+$url+'"><div><p class="title">'+$title.substring(0,36) +'</p>'+
 				'<p class="text">'+$content.substring(0,90)+'窶ｦ窶ｦ'+'</p></div>'+
 				'</a></li>').appendTo('section.akahatabox ul');
-			// }
+			}
 		} else if ($label === 'sub'){
 			$('<li>'+
 			'<a href="'+$url+'">'+$title.substring(0,36)+'</a>'+
