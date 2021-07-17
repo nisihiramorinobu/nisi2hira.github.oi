@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kijidata [
+  <!ELEMENT kijidata (entry+)>
+  <!ELEMENT entry (day,label,title,content)>
+  <!ELEMENT day (#PCDATA)>
+  <!ELEMENT label (#PCDATA)>
+  <!ELEMENT title (#PCDATA)>  
+  <!ELEMENT content (#PCDATA)>
+]>
+<kijidata>
+	<entry>
+		<day>2021.07.16</day>
+		<label>main</label>
+		<title>火災</title>
+		<content>警察に</content>
+	</entry>
+	<entry>
+		<day>2021.07.16</day>
+		<label>sub</label>
+		<title>火災</title>
+		<content>警察に</content>
+	</entry>
+	<entry>
+		<day>2021.07.16</day>
+		<label>sub</label>
+		<title>火災</title>
+		<content>警察に</content>
+	</entry>
+	<entry>
+		<day>2021.07.16</day>
+		<label>syutyo</label>
+		<title>火災</title>
+		<content>警察に</content>
+	</entry>
+	<entry>
+		<day>2021.07.16</day>
+		<label>tyoryu</label>
+		<title>火災</title>
+		<content>警察に</content>
+	</entry>
+</kijidata>
