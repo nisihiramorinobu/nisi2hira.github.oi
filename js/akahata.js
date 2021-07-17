@@ -11,7 +11,7 @@ $(function(){
 
 	function xmlLoad(){
 	$.ajax({
-	url:'../index.xml',
+	url:'index.xml',
 	type:'get',
 	cache : false,
 	dataType:'xml',
