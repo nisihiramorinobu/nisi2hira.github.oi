@@ -53,13 +53,13 @@ $(function(){
 			if($image != ""){
 			$('<li>'+
 				'<a href="'+$url+'"><div><p class="title">'+$title.substring(0,36) +'</p>'+
-				'<p class="text">'+$content.substring(0,90)+'窶ｦ窶ｦ'+'</p></div>'+
+				'<p class="text">'+$content.substring(0,90)+'．．．'+'</p></div>'+
 				'<div><img src="'+$image+'" alt="'+$alt+'" ></div>'+
 				'</a></li>').appendTo('section.akahatabox ul');
 			}else {
 				$('<li  class="noimg">'+
 				'<a href="'+$url+'"><div><p class="title">'+$title.substring(0,36) +'</p>'+
-				'<p class="text">'+$content.substring(0,90)+'窶ｦ窶ｦ'+'</p></div>'+
+				'<p class="text">'+$content.substring(0,90)+'．．．'+'</p></div>'+
 				'</a></li>').appendTo('section.akahatabox ul');
 			}
 		} else if ($label === 'sub'){
