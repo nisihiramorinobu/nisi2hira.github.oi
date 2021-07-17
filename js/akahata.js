@@ -68,12 +68,12 @@ $(function(){
 			'</li>').appendTo('section.akahatabox ul');
 		} else if ($label === 'syutyo'){ //荳ｻ蠑ｵ縺ｮ蜃ｺ蜉�
 			$('<li>'+
-//			'<a href="'+$url+'">荳ｻ蠑ｵ��'+$title.substring(0,33)+'</a>'+
+			'<a href="'+$url+'">荳ｻ蠑ｵ��'+$title.substring(0,33)+'</a>'+
 			'<a href="'+$url+'">'+$title.substring(0,33)+'</a>'+
 			'</li>').appendTo('section.akahatabox ul');
 		} else if ($label === 'tyouryu'){//貎ｮ豬√�蜃ｺ蜉�
 			$('<li>'+
-//			'<a href="'+$url+'">貎ｮ豬�ｼ�'+$title.substring(0,33)+'</a>'+
+			'<a href="'+$url+'">貎ｮ豬�ｼ�'+$title.substring(0,33)+'</a>'+
 			'<a href="'+$url+'">'+$title.substring(0,33)+'</a>'+
 			'</li>').appendTo('section.akahatabox ul');
 		} else {
