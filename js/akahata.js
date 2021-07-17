@@ -11,7 +11,7 @@ $(function(){
 
 	function xmlLoad(){
 	$.ajax({
-	url:'/akahata/akahata_top.xml',
+	url:'../index.xml',
 	type:'get',
 	cache : false,
 	dataType:'xml',
@@ -39,15 +39,15 @@ $(function(){
 	var $day = $(this).find('day').text();
 	var $label = $(this).find('label').text();
 	var $title = $(this).find('title').text();
-	var $url = $(this).find('url').text();
-	var $image = $(this).find('image').text();
-	var $alt = $(this).find('alt').text();
+	// var $url = $(this).find('url').text();
+	// var $image = $(this).find('image').text();
+	// var $alt = $(this).find('alt').text();
 	var $content = $(this).find('content').text();
 
-	if($label === 'main'){
-		$('<a href="https://www.jcp.or.jp/akahata/">襍､譌苓ｨ倅ｺ倶ｸ隕ｧ</a>'+'<span class="data">'+$day+'</span>').appendTo('section.akahatabox p');
-	}else{
-	}
+	// if($label === 'main'){
+	// 	$('<a href="https://www.jcp.or.jp/akahata/">襍､譌苓ｨ倅ｺ倶ｸ隕ｧ</a>'+'<span class="data">'+$day+'</span>').appendTo('section.akahatabox p');
+	// }else{
+	// }
 		//HTML繧堤函謌�
 		if($label === 'main'){
 			if($image != ""){
