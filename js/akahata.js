@@ -39,10 +39,10 @@ $(function(){
 	var $day = $(this).find('day').text();
 	var $label = $(this).find('label').text();
 	var $title = $(this).find('title').text();
-	// var $url = $(this).find('url').text();
 	// var $image = $(this).find('image').text();
 	// var $alt = $(this).find('alt').text();
 	var $content = $(this).find('content').text();
+	var $url = $(this).find('url').text();
 
 	// if($label === 'main'){
 	// 	$('<a href="https://www.jcp.or.jp/akahata/">襍､譌苓ｨ倅ｺ倶ｸ隕ｧ</a>'+'<span class="data">'+$day+'</span>').appendTo('section.akahatabox p');
