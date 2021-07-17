@@ -58,23 +58,23 @@ $(function(){
 			// 	'</a></li>').appendTo('section.akahatabox ul');
 			// }else {
 				$('<li  class="noimg">'+
-				'<a href="'+$url+'"><div><p class="title">'+$title.substring(0,36) +'</p>'+
+				'<a href=""><div><p class="title">'+$title.substring(0,36) +'</p>'+
 				'<p class="text">'+$content.substring(0,90)+'窶ｦ窶ｦ'+'</p></div>'+
 				'</a></li>').appendTo('section.akahatabox ul');
 			// }
 		} else if ($label === 'sub'){
 			$('<li>'+
-			'<a href="'+$url+'">'+$title.substring(0,36)+'</a>'+
+			'<a href="">'+$title.substring(0,36)+'</a>'+
 			'</li>').appendTo('section.akahatabox ul');
 		} else if ($label === 'syutyo'){ //荳ｻ蠑ｵ縺ｮ蜃ｺ蜉�
 			$('<li>'+
-//			'<a href="'+$url+'">荳ｻ蠑ｵ��'+$title.substring(0,33)+'</a>'+
-			'<a href="'+$url+'">'+$title.substring(0,33)+'</a>'+
+//			'<a href="">荳ｻ蠑ｵ��'+$title.substring(0,33)+'</a>'+
+			'<a href="">'+$title.substring(0,33)+'</a>'+
 			'</li>').appendTo('section.akahatabox ul');
 		} else if ($label === 'tyouryu'){//貎ｮ豬√�蜃ｺ蜉�
 			$('<li>'+
-//			'<a href="'+$url+'">貎ｮ豬�ｼ�'+$title.substring(0,33)+'</a>'+
-			'<a href="'+$url+'">'+$title.substring(0,33)+'</a>'+
+//			'<a href="">貎ｮ豬�ｼ�'+$title.substring(0,33)+'</a>'+
+			'<a href="">'+$title.substring(0,33)+'</a>'+
 			'</li>').appendTo('section.akahatabox ul');
 		} else {
 		}
